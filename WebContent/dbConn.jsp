@@ -22,6 +22,6 @@ try{
 catch(SQLException ex){
 	out.println("데이터 베이스 연결이 실패하였습니다.<br>");
 	out.println("SQLException : " + ex.getMessage());
-}
+}    
 
 %>
